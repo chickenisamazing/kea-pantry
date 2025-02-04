@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .navbar-title {
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .navbar-items {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    flex: 2;
+  }
+
+  .navbar-item {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin: 50px;
+    flex: 2;
+  }
+
+  .navbar-admin {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    flex: 1;
+  }
+}
