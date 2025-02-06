@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import styles from "./page.module.scss";
 
 export async function generateStaticParams() {
   try {
@@ -14,8 +15,6 @@ export async function generateStaticParams() {
   }
 }
 
-export const revalidate = 60;
-
 export default async function RecipeDetail({ params }) {
   const paramId = (await params).id;
   const res = await fetch(`http://localhost:3000/api/recipes/${paramId}`);
@@ -27,15 +26,24 @@ export default async function RecipeDetail({ params }) {
   const recipe = await res.json();
 
   return (
-    <div>
+    <div className={styles.card}>
       <h1>{recipe.name}</h1>
-      {/* <p>{recipe.explain}</p> */}
-      {/* <h3>Ingredients:</h3>
-      <ul>
-        {recipe.ingredient.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul> */}
+      <div>{recipe.description}</div>
+      <div>
+        <div>필수재료</div>
+        <div>
+          {recipe.ingredient.required.map((item, index) => (
+            <div key={index}>{item}</div>
+          ))}
+        </div>
+        <div>
+          <div>추가재료</div>
+          {recipe.ingredient.optional?.map((item, index) => (
+            <div key={index}>{item}</div>
+          ))}
+        </div>
+      </div>
+      <div>{recipe.instruction}</div>
     </div>
   );
 }
