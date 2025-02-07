@@ -6,7 +6,7 @@
       "category": 1,
       "quantity": 1,
       "unit": "작은술",
-      "image": null,
+      "image": "/assets/salt.png",
       "description": "작은 금"
     },
     {
@@ -15,8 +15,26 @@
       "category": 1,
       "quantity": 1,
       "unit": "작은술",
-      "image": null,
+      "image": "/assets/pepper.png",
       "description": "후추춧"
+    },
+    {
+      "id": 3,
+      "name": "방울토마토",
+      "category": 4,
+      "quantity": 1,
+      "unit": "개",
+      "image": "/assets/cherry-tomato.png",
+      "description": "다이어트"
+    },
+    {
+      "id": 4,
+      "name": "레몬",
+      "category": 5,
+      "quantity": 3,
+      "unit": "개",
+      "image": "/assets/lemon.png",
+      "description": "매우 시다"
     }
   ]
 }
