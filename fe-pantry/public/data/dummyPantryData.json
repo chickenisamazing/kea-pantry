@@ -1,0 +1,22 @@
+{
+  "pantry": [
+    {
+      "id": 1,
+      "name": "소금",
+      "category": 1,
+      "quantity": 1,
+      "unit": "작은술",
+      "image": null,
+      "description": "작은 금"
+    },
+    {
+      "id": 2,
+      "name": "후추",
+      "category": 1,
+      "quantity": 1,
+      "unit": "작은술",
+      "image": null,
+      "description": "후추춧"
+    }
+  ]
+}
