@@ -33,13 +33,13 @@ export default async function RecipeDetail({ params }) {
         <div>필수재료</div>
         <div>
           {recipe.ingredient.required.map((item, index) => (
-            <div key={index}>{item}</div>
+            <div key={index}>{item.name}</div>
           ))}
         </div>
         <div>
           <div>추가재료</div>
           {recipe.ingredient.optional?.map((item, index) => (
-            <div key={index}>{item}</div>
+            <div key={index}>{item.name}</div>
           ))}
         </div>
       </div>
