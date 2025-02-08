@@ -42,3 +42,7 @@ next-env.d.ts
 
 # dummy data
 dummyRecipeData.json
+dummyPantryData.json
+
+# local images
+/assets

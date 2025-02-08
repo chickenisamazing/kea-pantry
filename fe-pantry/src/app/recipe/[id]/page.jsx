@@ -17,7 +17,9 @@ export async function generateStaticParams() {
 
 export default async function RecipeDetail({ params }) {
   const paramId = (await params).id;
-  const res = await fetch(`http://localhost:3000/api/recipes/${paramId}`);
+  const res = await fetch(`http://localhost:3000/api/recipes/${paramId}`, {
+    next: { revalidate: 60 },
+  });
 
   if (!res.ok) {
     return notFound();
@@ -31,16 +33,51 @@ export default async function RecipeDetail({ params }) {
       <div>{recipe.description}</div>
       <div>
         <div>필수재료</div>
-        <div>
+        <div className={styles.ingredients}>
           {recipe.ingredient.required.map((item, index) => (
-            <div key={index}>{item.name}</div>
+            <div className={styles.image} key={item.id}>
+              {" "}
+              <img
+                // key={ingredient.id}
+                src={item.image}
+                alt="File icon"
+                width={80}
+                height={80}
+              />
+              <div>{item.name}</div>
+              <div className={styles.amount}>
+                <div>{item.quantity}</div>
+                <div>{item.unit}</div>
+              </div>
+            </div>
           ))}
         </div>
         <div>
-          <div>추가재료</div>
-          {recipe.ingredient.optional?.map((item, index) => (
-            <div key={index}>{item.name}</div>
-          ))}
+          {Array.isArray(recipe.ingredient.optional) &&
+            recipe.ingredient.optional.length > 0 && (
+              <div>
+                <div>추가재료</div>
+
+                <div className={styles.ingredients}>
+                  {recipe.ingredient.optional?.map((item, index) => (
+                    <div className={styles.image} key={item.id}>
+                      {" "}
+                      <img
+                        src={item.image}
+                        alt="File icon"
+                        width={80}
+                        height={80}
+                      />{" "}
+                      <div>{item.name}</div>
+                      <div className={styles.amount}>
+                        <div>{item.quantity}</div>
+                        <div>{item.unit}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
         </div>
       </div>
       <div>{recipe.instruction}</div>
