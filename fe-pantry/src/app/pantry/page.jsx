@@ -32,12 +32,6 @@ export default function Page() {
       <div className={styles.container}>
         {ingredients.map((ingredient) => (
           <div className={styles.ingredient} key={ingredient.id}>
-            <div
-              // key={ingredient.id}
-              onClick={() => buttonOnClick(ingredient.id)}
-            >
-              {ingredient.name}
-            </div>
             <img
               // key={ingredient.id}
               src={ingredient.image}
@@ -45,6 +39,12 @@ export default function Page() {
               width={80}
               height={80}
             />
+            <div
+            // key={ingredient.id}
+            // onClick={() => buttonOnClick(ingredient.id)}
+            >
+              {ingredient.name}
+            </div>
             <div className={styles.amount}>
               <div>{ingredient.quantity}</div>
               <div>{ingredient.unit}</div>
