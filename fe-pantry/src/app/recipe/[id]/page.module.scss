@@ -4,6 +4,24 @@
   align-items: center;
 }
 
+.recipe-name {
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.ingredients-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe-image {
+  margin-top: 20px;
+}
+
 .image {
   // display: flex;
   // flex-direction: column;
