@@ -29,10 +29,20 @@ export default async function RecipeDetail({ params }) {
 
   return (
     <div className={styles.card}>
-      <h1>{recipe.name}</h1>
+      <div className={styles["recipe-name"]}>{recipe.name}</div>
       <div>{recipe.description}</div>
+
+      <div className={styles["recipe-image"]}>
+        <img
+          // key={ingredient.id}
+          src={recipe.image}
+          alt="File icon"
+          width={512}
+          height={512}
+        />
+      </div>
       <div>
-        <div>필수재료</div>
+        <div className={styles["ingredients-title"]}>필수재료</div>
         <div className={styles.ingredients}>
           {recipe.ingredient.required.map((item, index) => (
             <div className={styles.image} key={item.id}>
@@ -56,7 +66,7 @@ export default async function RecipeDetail({ params }) {
           {Array.isArray(recipe.ingredient.optional) &&
             recipe.ingredient.optional.length > 0 && (
               <div>
-                <div>추가재료</div>
+                <div className={styles["ingredients-title"]}>추가재료</div>
 
                 <div className={styles.ingredients}>
                   {recipe.ingredient.optional?.map((item, index) => (
