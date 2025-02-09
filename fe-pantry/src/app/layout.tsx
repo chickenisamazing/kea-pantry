@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
 import Navbar from "../component/Navbar";
+
+const pretendard = localFont({
+  src: ".././font/PretendardVariable.woff2",
+  display: "swap",
+  variable: "--font-pretendard",
+});
+
+const cafe24 = localFont({
+  src: ".././font/Cafe24Oneprettynight-v2.0.ttf",
+  display: "swap",
+  variable: "--cafe24-one-pretty-night",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +38,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="kr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased ${pretendard.className}`}
       >
         <Navbar />
         {children}
