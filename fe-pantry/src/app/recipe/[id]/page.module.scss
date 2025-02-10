@@ -23,12 +23,18 @@
 }
 
 .image {
-  // display: flex;
-  // flex-direction: column;
+  text-align: center;
+  border: 3px solid rgb(222, 222, 222);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .ingredients {
   display: flex;
+  gap: 10px;
 }
 
 .amount {
@@ -37,5 +43,6 @@
 }
 
 .instruction {
+  margin-top: 20px;
   font-variant-numeric: tabular-nums;
 }
