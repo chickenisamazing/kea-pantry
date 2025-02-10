@@ -1,12 +1,52 @@
 .title {
   margin-top: 50px;
-  font-size: 30px;
+  // margin-bottom: 30px;
+  // font-size: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.board {
+  font-size: 30px;
+  color: rgb(118, 117, 117);
+}
+
 .btn {
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 10px;
+  // margin-bottom: 15px;
+  font-size: 25px;
+  color: rgb(84, 84, 84);
+}
+
+.description {
+  // font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(162, 161, 161);
+}
+
+.grid-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(221, 221, 221);
+  padding: 10px;
+  margin: 10px;
+  max-width: 320px;
+  max-height: 370px;
+  cursor: pointer;
+}
+
+.img-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
