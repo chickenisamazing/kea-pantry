@@ -38,15 +38,27 @@ export default function Page() {
     <div>
       <div className={styles.title}>
         <div className={styles.board}>레시피 리스트 페이지</div>
-        {datas.map((data) => (
-          <button
-            key={data.recipeId}
-            onClick={() => buttonOnClick(data.recipeId)}
-            className={styles.btn}
-          >
-            {data.name}
-          </button>
-        ))}
+        <div className={styles["grid-container"]}>
+          {datas.map((data) => (
+            <div
+              className={styles.section}
+              key={data.recipeId}
+              onClick={() => buttonOnClick(data.recipeId)}
+            >
+              <div className={styles["img-container"]}>
+                <img
+                  title={data.description}
+                  src={data.image}
+                  alt="File icon"
+                  width={256}
+                  height={256}
+                />
+              </div>
+              <div className={styles.btn}>{data.name}</div>
+              <div className={styles.description}>{data.description}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

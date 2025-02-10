@@ -48,6 +48,7 @@ export default async function RecipeDetail({ params }) {
             <div className={styles.image} key={item.id}>
               {" "}
               <img
+                title={item.description}
                 // key={ingredient.id}
                 src={item.image}
                 alt="File icon"
@@ -73,6 +74,7 @@ export default async function RecipeDetail({ params }) {
                     <div className={styles.image} key={item.id}>
                       {" "}
                       <img
+                        title={item.description}
                         src={item.image}
                         alt="File icon"
                         width={80}
@@ -90,7 +92,13 @@ export default async function RecipeDetail({ params }) {
             )}
         </div>
       </div>
-      <div>{recipe.instruction}</div>
+      <div>
+        {recipe.instruction.map((text, index) => (
+          <div className={styles.instruction} key={index}>
+            {index + 1}. {text}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
