@@ -37,7 +37,7 @@ export default function Page() {
   return (
     <div>
       <div className={styles.title}>
-        <div className={styles.board}>레시피 리스트 페이지</div>
+        <div className={styles.board}>레시피 리스트</div>
         <div className={styles["grid-container"]}>
           {datas.map((data) => (
             <div
