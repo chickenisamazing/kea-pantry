@@ -28,7 +28,7 @@ export default async function RecipeDetail({ params }) {
   const recipe = await res.json();
 
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} ${styles["background-img"]}`}>
       <div className={styles["recipe-name"]}>{recipe.name}</div>
       <div>{recipe.description}</div>
 
