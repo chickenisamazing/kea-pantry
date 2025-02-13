@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
-  const res = await fetch(`${baseUrl}/data/dummyRecipeData.json`);
+  const baseUrl = `http://localhost:3000`;
+  const res = await fetch(`${baseUrl}/data/dummyVercelTestRecipeData.json`);
 
   if (!res.ok) {
     return NextResponse.error();
