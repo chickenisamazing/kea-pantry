@@ -11,12 +11,6 @@ const pretendard = localFont({
   variable: "--font-pretendard",
 });
 
-const cafe24 = localFont({
-  src: ".././font/Cafe24Oneprettynight-v2.0.ttf",
-  display: "swap",
-  variable: "--cafe24-one-pretty-night",
-});
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
