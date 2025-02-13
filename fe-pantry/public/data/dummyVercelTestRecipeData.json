@@ -1,0 +1,1757 @@
+{
+  "recipes": [
+    {
+      "recipeId": 1,
+      "name": "부라타 치즈 샐러드",
+      "description": "케아가 가장 자신있는 만들기 쉬운 단골 메뉴",
+      "image": "/assets/dish/burrata_cheese_salad_2.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 1,
+            "name": "소금",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/salt.png",
+            "description": "작은 금"
+          },
+          {
+            "id": 2,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/black-pepper2.png",
+            "description": "후추춧"
+          },
+          {
+            "id": 4,
+            "name": "레몬",
+            "quantity": 1,
+            "unit": "개",
+            "image": "/assets/lemon.png",
+            "description": "작은 금"
+          },
+          {
+            "id": 3,
+            "name": "방울 토마토",
+            "quantity": 7,
+            "unit": "개",
+            "image": "/assets/cherry-tomato.png",
+            "description": "작은 금"
+          },
+          {
+            "id": 5,
+            "name": "부라타 치즈",
+            "quantity": 1,
+            "unit": "개",
+            "image": "/assets/burrata2.png",
+            "description": "겉은 모짜렐라 속은 크리미"
+          },
+          {
+            "id": 13,
+            "name": "올리브 오일",
+            "quantity": 15,
+            "unit": "ml",
+            "image": "/assets/olive-oil.png",
+            "description": "비싸"
+          }
+        ],
+        "optional": [
+          {
+            "id": 11,
+            "name": "화이트 발사믹",
+            "quantity": 10,
+            "unit": "ml",
+            "image": "/assets/white-balsamic.png",
+            "description": "레오나르디 콘디멘토"
+          },
+          {
+            "id": 12,
+            "name": "와일드 루꼴라",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/rucola.png",
+            "description": "쌉쌀한 맛이 매력"
+          },
+          {
+            "id": 13,
+            "name": "레몬 제스트",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/lemon-zest.png",
+            "description": "상큼함을 더해주는"
+          }
+        ]
+      },
+      "instruction": [
+        "1. 방울토마토는 절반으로 가른다.",
+        "2. 부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        " 3. 소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "4. 와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 2,
+      "name": "홈메이드 리코타 치즈",
+      "description": "홈메이드 수제 리코타 치즈",
+      "image": "/assets/dish/ricotta_canva.png",
+      "author": null,
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 1,
+            "name": "소금",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/salt.png",
+            "description": "작은 금"
+          },
+          {
+            "id": 4,
+            "name": "레몬",
+            "quantity": 1,
+            "unit": "개",
+            "image": "/assets/lemon.png",
+            "description": "시다"
+          },
+          {
+            "id": 6,
+            "name": "우유",
+            "quantity": 500,
+            "unit": "ml",
+            "image": "/assets/milk.png",
+            "description": "밀크"
+          },
+          {
+            "id": 7,
+            "name": "생크림",
+            "quantity": 250,
+            "unit": "ml",
+            "image": "/assets/whipped-cream.png",
+            "description": "꼬소"
+          }
+        ]
+      },
+      "instruction": [
+        "우유 500ml에 생크림 250ml를 넣고 섞어서 약불에 올린다.",
+        "우유 가장자리에 거품이 올라오고 곧 끓을 것 같으면 레몬즙 15ml를 넣고 빠르게 주걱으로 섞는다.",
+        "그 상태에서 약불로 10분 정도 가열한다."
+      ]
+    },
+    {
+      "recipeId": 3,
+      "name": "일본식 다시마 조림",
+      "description": "일본 비건식 오니기리 속재료",
+      "image": "/assets/dish/braised_kelp_canva_2.png",
+      "author": "먀쿠아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 38,
+            "name": "다시마",
+            "quantity": 60,
+            "unit": "g",
+            "image": "/assets/kelp.png",
+            "description": "뿌리 다시마"
+          },
+          {
+            "id": 1,
+            "name": "소금",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/salt.png",
+            "description": "작은 금"
+          },
+          {
+            "id": 10,
+            "name": "물",
+            "quantity": 300,
+            "unit": "cc",
+            "image": "/assets/water.png",
+            "description": "순수함 그 자체"
+          },
+          {
+            "id": 16,
+            "name": "들기름",
+            "quantity": 15,
+            "unit": "ml",
+            "image": "/assets/perilla-oil.png",
+            "description": "고소한 들기름"
+          }
+        ]
+      },
+      "instruction": ["이.", "레시피는.", "비밀.", "입니다."]
+    },
+    {
+      "recipeId": 4,
+      "name": "전복 솥밥",
+      "description": "이제 전복 솥밥 사먹을 필요 없다!",
+      "image": "/assets/dish/abalone_pot_rice.png",
+      "author": null,
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 1,
+            "name": "소금",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/salt.png",
+            "description": "작은 금"
+          },
+          {
+            "id": 10,
+            "name": "물",
+            "quantity": 300,
+            "unit": "cc",
+            "image": "/assets/water.png",
+            "description": "순수함 그 자체"
+          },
+          {
+            "id": 13,
+            "name": "쌀",
+            "quantity": 200,
+            "unit": "ml",
+            "image": "/assets/rice.png",
+            "description": "쌀"
+          },
+          {
+            "id": 14,
+            "name": "전복",
+            "quantity": 5,
+            "unit": "개",
+            "image": "/assets/braised-abalone.png",
+            "description": "요즘 전복이 예전처럼 비싼 식재료가 아닙니다"
+          },
+          {
+            "id": 15,
+            "name": "참기름",
+            "quantity": 15,
+            "unit": "ml",
+            "image": "/assets/sesame-oil.png",
+            "description": "고소한 참기름"
+          }
+        ]
+      },
+      "instruction": ["전복, 간장, 소금을 전부 넣는다.", "솥밥", "맛있겠다."]
+    },
+    {
+      "recipeId": 5,
+      "name": "연어 스테이크",
+      "description": "동생 평점 8.9점 극강의 연어 스테이크",
+      "image": "/assets/dish/salmon_steak_canva_resize_bright.png",
+      "author": null,
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 1,
+            "name": "소금",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/salt.png",
+            "description": "작은 금"
+          },
+          {
+            "id": 8,
+            "name": "국산콩 간장",
+            "quantity": 1,
+            "unit": "개",
+            "image": "/assets/soy-sauce.png",
+            "description": "다른 간장은 짜고 다니까 이걸 사용하세요"
+          },
+          {
+            "id": 10,
+            "name": "물",
+            "quantity": 300,
+            "unit": "cc",
+            "image": "/assets/water.png",
+            "description": "순수함 그 자체"
+          },
+          {
+            "id": 16,
+            "name": "들기름",
+            "quantity": 15,
+            "unit": "ml",
+            "image": "/assets/perilla-oil.png",
+            "description": "고소한 들기름"
+          }
+        ]
+      },
+      "instruction": ["ㅎ.", "ㅎㅎ.", "ㅎㅎㅎ.", "ㅎㅎ."]
+    },
+    {
+      "recipeId": 6,
+      "name": "대추야자 아이스바",
+      "description": "무설탕이지만 맛은 깊은 대추야자 페스토로 만든 건강 아이스바",
+      "image": "/assets/dish/date_palm_icebar_canva.png",
+      "author": null,
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 6,
+            "name": "우유",
+            "quantity": 50,
+            "unit": "ml",
+            "image": "/assets/milk.png",
+            "description": "밀크"
+          },
+          {
+            "id": 9,
+            "name": "대추야자페스토",
+            "quantity": 2,
+            "unit": "큰술",
+            "image": "/assets/date-palm.png",
+            "description": "대추야자로 만든 설탕 대체 페이스트"
+          }
+        ]
+      },
+      "instruction": [
+        "우유 50ml에 대추야자페스토를 2큰술 넣어 잘 섞는다.",
+        "스틱형 실리콘 아이스 몰드에 스푼으로 옮겨담아 얼린다.",
+        "실리콘 아이스 몰드를 비틀어서 아이스바가 빠지기 쉽게 한다.",
+        "몰드 아랫면을 누르면서 스틱을 잡아당겨 아이스바를 꺼낸다."
+      ]
+    },
+    {
+      "recipeId": 7,
+      "name": "홈메이드 Next.js 파스타",
+      "description": "충격과 공포 그 자체 예기치 못한 맛이 튀어나오는 어메이징한 차세대 파스타",
+      "image": "/assets/test/react_pasta_canva.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "Next.js",
+            "quantity": 15,
+            "unit": "ver",
+            "image": "/assets/test/nextjs.png",
+            "description": "SSR맛 봐라"
+          },
+          {
+            "id": 2,
+            "name": "리액트",
+            "quantity": 5,
+            "unit": "hooks",
+            "image": "/assets/test/react.png",
+            "description": "리액트패럿"
+          },
+          {
+            "id": 18,
+            "name": "타입스크립트",
+            "quantity": 1,
+            "unit": "any",
+            "image": "/assets/test/typescript.png",
+            "description": "사실 넘 어려워요.."
+          },
+          {
+            "id": 3,
+            "name": "eslint",
+            "quantity": 7,
+            "unit": "airbnb",
+            "image": "/assets/test/eslint.png",
+            "description": "airbnb 컨벤션은 매우 strict한 규약입니다"
+          },
+          {
+            "id": 32,
+            "name": "자바스크립트",
+            "quantity": 1,
+            "unit": "개",
+            "image": "/assets/test/javascript.png",
+            "description": "허허"
+          }
+        ],
+        "optional": [
+          {
+            "id": 20,
+            "name": "node.js",
+            "quantity": 10,
+            "unit": "개",
+            "image": "/assets/test/nodejs.png",
+            "description": "백준에서 노드를 쓰던데요"
+          },
+          {
+            "id": 26,
+            "name": "nextphp",
+            "quantity": 10,
+            "unit": "개",
+            "image": "/assets/test/nextphp.png",
+            "description": "next는 백엔드 없이 다이렉트로 DB에 접근하게 해주는 server action을.."
+          },
+          {
+            "id": 27,
+            "name": "sirocco",
+            "quantity": 10,
+            "unit": "개",
+            "image": "/assets/test/greenparrot.gif",
+            "description": "kakapo rules the world"
+          },
+          {
+            "id": 33,
+            "name": "kea",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/test/kea-picture2.png",
+            "description": "kakapo rules the world"
+          },
+          {
+            "id": 28,
+            "name": "캣냅",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/test/catnap2.png",
+            "description": "이번 보스는 별로 안 귀엽더라"
+          },
+          {
+            "id": 29,
+            "name": "캣냅2",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/test/catnap_canva_3.png",
+            "description": "이번 보스는 별로 안 귀엽더라"
+          },
+          {
+            "id": 30,
+            "name": "캣냅3",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/test/catnap4.png",
+            "description": "이번 보스는 별로 안 귀엽더라"
+          }
+        ]
+      },
+      "instruction": ["리액트", "아아악"]
+    },
+    {
+      "recipeId": 8,
+      "name": "루꼴라 방울토마토 갈레트",
+      "description": "간단하게 만드는 근사한 비주얼과 극찬의 맛의 디저트",
+      "image": "/assets/dish/rucola_galette.png",
+      "author": null,
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "크레페",
+            "quantity": 1,
+            "unit": "장",
+            "image": "/assets/crepe.png",
+            "description": "페이장 브레통꺼 사라"
+          },
+          {
+            "id": 2,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/black-pepper2.png",
+            "description": "후추춧"
+          },
+          {
+            "id": 21,
+            "name": "슬라이스햄",
+            "quantity": 2,
+            "unit": "장",
+            "image": "/assets/ham.png",
+            "description": "잠봉도 ㅇㅋ"
+          },
+          {
+            "id": 3,
+            "name": "방울 토마토",
+            "quantity": 7,
+            "unit": "개",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 19,
+            "name": "계란",
+            "quantity": 1,
+            "unit": "개",
+            "image": "/assets/egg.png",
+            "description": "삶은..달걀.."
+          },
+          {
+            "id": 12,
+            "name": "와일드 루꼴라",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/rucola.png",
+            "description": "쌉쌀한 맛이 매력"
+          }
+        ],
+        "optional": [
+          {
+            "id": 20,
+            "name": "선드라이드 토마토",
+            "quantity": 6,
+            "unit": "개",
+            "image": "/assets/white-balsamic.png",
+            "description": "토마토의 응축된 강렬한 맛으로 킥을 더해줍니다"
+          },
+          {
+            "id": 22,
+            "name": "파르미지아노 레지아노",
+            "quantity": 1,
+            "unit": "제스트",
+            "image": "/assets/parmigiano-reggiano.png",
+            "description": "꼬릿한 향이 나는 매우 비싼 경성 치즈, kea는 코스트코 갈 때마다 제일 무게 작은 것을 찾아서 산다."
+          },
+          {
+            "id": 23,
+            "name": "그라나 파다노",
+            "quantity": 1,
+            "unit": "제스트",
+            "image": "/assets/grana-padano.png",
+            "description": "파르미지아노 레지아노보다는 조금 저렴한 치즈. 맛은 덜 꼬릿한 경성치즈일 것 같다"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 9,
+      "name": "알밥",
+      "description": "톡톡 터지는 날치알이 매력적인 가벼운 한 끼",
+      "image": "/assets/dish/albab.jpeg",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 24,
+            "name": "밥",
+            "quantity": 100,
+            "unit": "g",
+            "image": "/assets/rice-bowl.png",
+            "description": "따뜻한 밥"
+          },
+          {
+            "id": 2,
+            "name": "오이",
+            "quantity": 1,
+            "unit": "개",
+            "image": "/assets/cucumber.png",
+            "description": "아삭아삭"
+          },
+          {
+            "id": 30,
+            "name": "날치알",
+            "quantity": 1,
+            "unit": "팩",
+            "image": "/assets/fish-roe.png",
+            "description": "톡톡 터지는 식감이 매력"
+          },
+          {
+            "id": 21,
+            "name": "꼬들단무지",
+            "quantity": 50,
+            "unit": "g",
+            "image": "/assets/pickled-radish.png",
+            "description": "꼬들해야함"
+          },
+          {
+            "id": 3,
+            "name": "김치",
+            "quantity": 100,
+            "unit": "g",
+            "image": "/assets/kimchi.png",
+            "description": "잘 익은 김치"
+          },
+          {
+            "id": 19,
+            "name": "참기름",
+            "quantity": 15,
+            "unit": "ml",
+            "image": "/assets/sesame-oil.png",
+            "description": "꼬소한 참기름"
+          },
+          {
+            "id": 12,
+            "name": "식용유",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/sesame-oil.png",
+            "description": "포도씨유, 현미유 아무거나"
+          },
+          {
+            "id": 26,
+            "name": "김",
+            "quantity": 2,
+            "unit": "팩",
+            "image": "/assets/nori.png",
+            "description": "김"
+          },
+          {
+            "id": 27,
+            "name": "크래미",
+            "quantity": 3,
+            "unit": "개",
+            "image": "/assets/crammy.png",
+            "description": "크래미"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 10,
+      "name": "랍스터 파스타",
+      "description": "이런 파스타도 만들 수 있다구요!",
+      "image": "/assets/dish/lobster_pasta.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "스파게티면",
+            "quantity": 100,
+            "unit": "g",
+            "image": "/assets/pasta-noodle.png",
+            "description": "데체코"
+          },
+          {
+            "id": 2,
+            "name": "랍스터",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/lobster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "와일드 루꼴라",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "올리브 오일",
+            "quantity": 3,
+            "unit": "T",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 5,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "방울 토마토",
+            "quantity": 7,
+            "unit": "개",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 11,
+      "name": "앤쵸비 파스타",
+      "description": "오늘 최적의 익힘 정도를 드디어 구현했다!",
+      "image": "/assets/dish/anchovy_pasta_canva_2.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "스파게티면",
+            "quantity": 100,
+            "unit": "g",
+            "image": "/assets/pasta-noodle.png",
+            "description": "데체코"
+          },
+          {
+            "id": 2,
+            "name": "앤쵸비",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/anchovy.png",
+            "description": "앤쵸비오일절임"
+          },
+          {
+            "id": 4,
+            "name": "올리브 오일",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 5,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 18,
+            "name": "페페론치노",
+            "quantity": 2,
+            "unit": "개",
+            "image": "/assets/peperoncino.png",
+            "description": "덜 맵게 먹고 싶으면 노란색 씨를 줄이세요"
+          },
+          {
+            "id": 9,
+            "name": "굵은 소금",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/salt.png",
+            "description": "굵은 소금"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "방울 토마토",
+            "quantity": 5,
+            "unit": "개",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 22,
+            "name": "냉동 새우",
+            "quantity": 5,
+            "unit": "마리",
+            "image": "/assets/shrimp.png",
+            "description": "새우새우"
+          },
+          {
+            "id": 21,
+            "name": "와일드 루꼴라",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/rucola.png",
+            "description": "쌉싸름한 맛이 매력적인 채소"
+          }
+        ]
+      },
+      "instruction": [
+        "1.5L의 물을 끓이고 물이 끓기 시작하면 굵은 소금 1T를 넣고 파스타면을 넣어서 7분 40초 삶는다.",
+        "파스타면을 넣자마자 프라이팬에 올리브유 1T을 넣고 마늘 슬라이스한 것 5개와 다진 페페론치노 3개를 넣어서 약불(인덕션3)에 볶는다.",
+        "면이 다 삶아지기 한 3분 전쯤에 방울 토마토와 냉동 새우를 넣어서 익힌다.(시간차를 둔다)",
+        "면이 다 삶아지기 한 1분 전쯤에 조금만 다진 앤쵸비를 넣어 볶는다.",
+        "다 삶아진 면을 프라이팬에 옮기고 작은 국자로 3스푼 정도의 면수를 같이 부어서 중불(인덕션5)에서 끓인다",
+        "면이 잘 익었나 맛을 본다. 대략 2분 30초 정도 더 끓이면 완성이다. 조금만 더 익혀야 할 것 같은데 싶은 순간에 꺼내서 플레이팅한다.",
+        "파스타 위에 올리브유를 한 바퀴 두르고 후추를 뿌리고 루꼴라가 있으면 위에 올린다."
+      ]
+    },
+    {
+      "recipeId": 12,
+      "name": "오니기리",
+      "description": "다시마 조림으로 속을 채운 오니기리",
+      "image": "/assets/dish/onigiri.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "스파게티면",
+            "quantity": 100,
+            "unit": "g",
+            "image": "/assets/pasta-noodle.png",
+            "description": "데체코"
+          },
+          {
+            "id": 2,
+            "name": "랍스터",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/lobster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "와일드 루꼴라",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "올리브 오일",
+            "quantity": 3,
+            "unit": "T",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 5,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "방울 토마토",
+            "quantity": 7,
+            "unit": "개",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 13,
+      "name": "야끼 오니기리",
+      "description": "겉면을 살짝 구운 오니기리",
+      "image": "/assets/dish/yaki_onigiri.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "스파게티면",
+            "quantity": 100,
+            "unit": "g",
+            "image": "/assets/pasta-noodle.png",
+            "description": "데체코"
+          },
+          {
+            "id": 2,
+            "name": "랍스터",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/lobster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "와일드 루꼴라",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "올리브 오일",
+            "quantity": 3,
+            "unit": "T",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 5,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "방울 토마토",
+            "quantity": 7,
+            "unit": "개",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 14,
+      "name": "데리야끼 오니기리",
+      "description": "대추야자 페스토를 발라 겉면을 살짝 구운 오니기리",
+      "image": "/assets/dish/date_palm_yaki_onigiri.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "스파게티면",
+            "quantity": 100,
+            "unit": "g",
+            "image": "/assets/pasta-noodle.png",
+            "description": "데체코"
+          },
+          {
+            "id": 2,
+            "name": "랍스터",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/lobster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "와일드 루꼴라",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "올리브 오일",
+            "quantity": 3,
+            "unit": "T",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 5,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "방울 토마토",
+            "quantity": 7,
+            "unit": "개",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 15,
+      "name": "김치볶음밥",
+      "description": "언제나 맛있는 스테디",
+      "image": "/assets/dish/kimchi_fried_rice_canva.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "김치",
+            "quantity": 130,
+            "unit": "g",
+            "image": "/assets/kimchi.png",
+            "description": "데체코"
+          },
+          {
+            "id": 2,
+            "name": "참치캔",
+            "quantity": 1,
+            "unit": "캔",
+            "image": "/assets/tuna-tin.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 4,
+            "name": "달걀",
+            "quantity": 1,
+            "unit": "개",
+            "image": "/assets/egg.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 5,
+            "name": "올리브 오일",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "올리고당",
+            "quantity": 5,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 9,
+            "name": "참기름",
+            "quantity": 5,
+            "unit": "큰술",
+            "image": "/assets/sesame-oil.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "슈레드 치즈",
+            "quantity": 7,
+            "unit": "개",
+            "image": "/assets/shred-cheese.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 33,
+            "name": "깨",
+            "quantity": 1,
+            "unit": "작은술",
+            "image": "/assets/sesame.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 16,
+      "name": "리코타 방토 바게트",
+      "description": "언제나 맛있는 스테디",
+      "image": "/assets/dish/ricotta_baguette_canva_resize_bright.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "스파게티면",
+            "quantity": 100,
+            "unit": "g",
+            "image": "/assets/pasta-noodle.png",
+            "description": "데체코"
+          },
+          {
+            "id": 2,
+            "name": "랍스터",
+            "quantity": 1,
+            "unit": "마리",
+            "image": "/assets/lobster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "와일드 루꼴라",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "올리브 오일",
+            "quantity": 3,
+            "unit": "T",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 5,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "방울 토마토",
+            "quantity": 7,
+            "unit": "개",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 17,
+      "name": "비건 커리",
+      "description": "구운 야채를 올린 비건 커리",
+      "image": "/assets/dish/vegan_curry_canva.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "비건 커리",
+            "quantity": 1,
+            "unit": "팩",
+            "image": "/assets/curry.png",
+            "description": "얄라"
+          },
+          {
+            "id": 19,
+            "name": "밥",
+            "quantity": 1,
+            "unit": "그릇",
+            "image": "/assets/rice-bowl3.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "애호박",
+            "quantity": 0.5,
+            "unit": "개",
+            "image": "/assets/zucchini.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "가지",
+            "quantity": 0.5,
+            "unit": "개",
+            "image": "/assets/eggplant.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "느타리 버섯",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 4,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "플레인 요거트",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/plain-yogurt.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 98,
+            "name": "코티지 치즈",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cottage-cheese.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 20,
+      "name": "딸기 라씨",
+      "description": "치즈를 만들고 남은 유청을 활용한 라씨",
+      "image": "/assets/dish/strawberry_lassi_canva.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "유청",
+            "quantity": 50,
+            "unit": "ml",
+            "image": "/assets/whey.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "플레인 요거트",
+            "quantity": 100,
+            "unit": "ml",
+            "image": "/assets/plain-yogurt.png",
+            "description": "너무 오래 볶으면 질겨져"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 25,
+      "name": "훈제오리 알배추 찜",
+      "description": "간단하게 만드는 단골 식단",
+      "image": "/assets/dish/steamed_duck_cabbage_resized.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "비건 커리",
+            "quantity": 1,
+            "unit": "팩",
+            "image": "/assets/pasta-noodle.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "애호박",
+            "quantity": 0.5,
+            "unit": "개",
+            "image": "/assets/robster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "가지",
+            "quantity": 0.5,
+            "unit": "개",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "느타리 버섯",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 4,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "플레인 요거트",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 98,
+            "name": "코티지 치즈",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 23,
+      "name": "토마토즙 국수",
+      "description": "하룻밤동안 토마토즙을 내려 만든 토마토 육수",
+      "image": "/assets/dish/tomato_noodle_canva.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "비건 커리",
+            "quantity": 1,
+            "unit": "팩",
+            "image": "/assets/pasta-noodle.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "애호박",
+            "quantity": 0.5,
+            "unit": "개",
+            "image": "/assets/robster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "가지",
+            "quantity": 0.5,
+            "unit": "개",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "느타리 버섯",
+            "quantity": 1,
+            "unit": "줌",
+            "image": "/assets/olive-oil.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "마늘",
+            "quantity": 4,
+            "unit": "알",
+            "image": "/assets/garlic.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "플레인 요거트",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 98,
+            "name": "코티지 치즈",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "틈에이러~"
+          }
+        ]
+      },
+      "instruction": [
+        "방울토마토는 절반으로 가른다.",
+        "부라타 치즈를 그릇 중앙에 놓고 그 주위에 반갈죽난 방울토마토를 플레이팅한다.",
+        "소스 재료들을 모두 섞어 그 위에 뿌린다.",
+        "와일드 루꼴라가 있다면 마지막에 장식한다"
+      ]
+    },
+    {
+      "recipeId": 31,
+      "name": "바삭한 닭다리 구이",
+      "description": "감자전분으로 바삭함을 더한 치킨 그 자체",
+      "image": "/assets/dish/grilled_chicken_leg.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "닭다리(정육)",
+            "quantity": 2,
+            "unit": "개",
+            "image": "/assets/chicken-meat-pack.png",
+            "description": "닭다리"
+          },
+          {
+            "id": 2,
+            "name": "감자전분",
+            "quantity": 4,
+            "unit": "T",
+            "image": "/assets/potato-starch.png",
+            "description": "다른 전분은 안 되요"
+          },
+          {
+            "id": 21,
+            "name": "미림",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/rice-wine.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "굵은 소금",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/salt.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "t",
+            "image": "/assets/pepper.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "에브리띵 베이글 시즈닝",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "poppy seed 때문에 더 이상 구할 수 없다"
+          },
+          {
+            "id": 98,
+            "name": "저칼로리 숯불매콤치킨소스",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/vividkitchen-maekom.jpg",
+            "description": "비비드키친. 느끼한 맛을 싹 잡아준다."
+          }
+        ]
+      },
+      "instruction": [
+        "닭다리(정육)는 물로 한 번 씻고 굵은 소금과 미림을 뿌려 5분 이상 방치한다.",
+        "달구어지지 않은 프라이팬에 오일을 2T 두른다.",
+        "닭다리는 앞뒷면에 감자전분을 묻힌 후 차가운 상태의 팬에 올려 곧바로 중불(인덕션5)에서 익힌다..",
+        "프라이팬 덮개를 덮고 구워주다가 한쪽 면이 노릇하게 구워지면 뒤집어서 반대편도 굽는다.",
+        "반대편도 빠삭하게 구워지면 다시 한 번 더 뒤집어서 조금만 더 굽다가 불을 끄고 그 상태로 둔다.",
+        "5분 정도 지나면 구워진 닭다리를 꺼내 자른다."
+      ]
+    },
+    {
+      "recipeId": 36,
+      "name": "토마토 참치 국수",
+      "description": "익숙한 재료로 이색적인 맛",
+      "image": "/assets/dish/tomato_tuna_noodle.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "닭다리(정육)",
+            "quantity": 2,
+            "unit": "개",
+            "image": "/assets/chicken-leg.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "감자전분",
+            "quantity": 4,
+            "unit": "T",
+            "image": "/assets/robster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "미림",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "굵은 소금",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/salt.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "t",
+            "image": "/assets/pepper.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "에브리띵 베이글 시즈닝",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "poppy seed 때문에 더 이상 구할 수 없다"
+          },
+          {
+            "id": 98,
+            "name": "저칼로리 숯불매콤치킨소스",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "비비드키친. 느끼한 맛을 싹 잡아준다."
+          }
+        ]
+      },
+      "instruction": [
+        "닭다리(정육)는 물로 한 번 씻고 굵은 소금과 미림을 뿌려 5분 이상 방치한다.",
+        "달구어지지 않은 프라이팬에 오일을 2T 두른다.",
+        "닭다리는 앞뒷면에 감자전분을 묻힌 후 차가운 상태의 팬에 올려 곧바로 중불(인덕션5)에서 익힌다..",
+        "프라이팬 덮개를 덮고 구워주다가 한쪽 면이 노릇하게 구워지면 뒤집어서 반대편도 굽는다.",
+        "반대편도 빠삭하게 구워지면 다시 한 번 더 뒤집어서 조금만 더 굽다가 불을 끄고 그 상태로 둔다.",
+        "5분 정도 지나면 구워진 닭다리를 꺼내 자른다."
+      ]
+    },
+    {
+      "recipeId": 48,
+      "name": "저칼로리 애호박 비빔국수",
+      "description": "정말 가벼운 한 끼",
+      "image": "/assets/dish/zuccini_noodle.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "닭다리(정육)",
+            "quantity": 2,
+            "unit": "개",
+            "image": "/assets/chicken-leg.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "감자전분",
+            "quantity": 4,
+            "unit": "T",
+            "image": "/assets/robster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "미림",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "굵은 소금",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/salt.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "t",
+            "image": "/assets/pepper.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "에브리띵 베이글 시즈닝",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "poppy seed 때문에 더 이상 구할 수 없다"
+          },
+          {
+            "id": 98,
+            "name": "저칼로리 숯불매콤치킨소스",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "비비드키친. 느끼한 맛을 싹 잡아준다."
+          }
+        ]
+      },
+      "instruction": [
+        "닭다리(정육)는 물로 한 번 씻고 굵은 소금과 미림을 뿌려 5분 이상 방치한다.",
+        "달구어지지 않은 프라이팬에 오일을 2T 두른다.",
+        "닭다리는 앞뒷면에 감자전분을 묻힌 후 차가운 상태의 팬에 올려 곧바로 중불(인덕션5)에서 익힌다..",
+        "프라이팬 덮개를 덮고 구워주다가 한쪽 면이 노릇하게 구워지면 뒤집어서 반대편도 굽는다.",
+        "반대편도 빠삭하게 구워지면 다시 한 번 더 뒤집어서 조금만 더 굽다가 불을 끄고 그 상태로 둔다.",
+        "5분 정도 지나면 구워진 닭다리를 꺼내 자른다."
+      ]
+    },
+    {
+      "recipeId": 58,
+      "name": "된장찌개",
+      "description": "간편하게 만들어요",
+      "image": "/assets/dish/soybean_paste_stew_3.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "닭다리(정육)",
+            "quantity": 2,
+            "unit": "개",
+            "image": "/assets/chicken-leg.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "감자전분",
+            "quantity": 4,
+            "unit": "T",
+            "image": "/assets/robster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "미림",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "굵은 소금",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/salt.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "t",
+            "image": "/assets/pepper.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "에브리띵 베이글 시즈닝",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "poppy seed 때문에 더 이상 구할 수 없다"
+          },
+          {
+            "id": 98,
+            "name": "저칼로리 숯불매콤치킨소스",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "비비드키친. 느끼한 맛을 싹 잡아준다."
+          }
+        ]
+      },
+      "instruction": [
+        "닭다리(정육)는 물로 한 번 씻고 굵은 소금과 미림을 뿌려 5분 이상 방치한다.",
+        "달구어지지 않은 프라이팬에 오일을 2T 두른다.",
+        "닭다리는 앞뒷면에 감자전분을 묻힌 후 차가운 상태의 팬에 올려 곧바로 중불(인덕션5)에서 익힌다..",
+        "프라이팬 덮개를 덮고 구워주다가 한쪽 면이 노릇하게 구워지면 뒤집어서 반대편도 굽는다.",
+        "반대편도 빠삭하게 구워지면 다시 한 번 더 뒤집어서 조금만 더 굽다가 불을 끄고 그 상태로 둔다.",
+        "5분 정도 지나면 구워진 닭다리를 꺼내 자른다."
+      ]
+    },
+    {
+      "recipeId": 73,
+      "name": "한우 차돌박이 구이",
+      "description": "비싼 한우 차돌박이. 소량 반찬으로 곁들여먹어요",
+      "image": "/assets/dish/grilled_chadolbagi.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "한우 차돌박이",
+            "quantity": 50,
+            "unit": "g",
+            "image": "/assets/chicken-leg.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "굵은 소금",
+            "quantity": 1,
+            "unit": "꼬집",
+            "image": "/assets/robster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 3,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "꼬집",
+            "image": "/assets/robster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          }
+        ]
+      },
+      "instruction": [
+        "프라이팬을 달구고 냉동상태의 한우 차돌박이와 소금을 한 꼬집 넣는다.",
+        "돌돌 말린 차돌박이가 풀리면 양면이 잘 굽도록 뒤집어준다.",
+        "덜 익어서 붉은 부위가 없다면 그릇에 덜고 후추를 뿌린다."
+      ]
+    }
+  ]
+}
