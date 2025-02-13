@@ -2,8 +2,14 @@ import { notFound } from "next/navigation";
 import styles from "./page.module.scss";
 
 export async function generateStaticParams() {
+  const API_URL =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://kea-pantry.vercel.app";
+
   try {
-    const res = await fetch(`http://localhost:3000/api/recipes`);
+    const res = await fetch(`${API_URL}/api/recipes`);
+
     const data = await res.json();
 
     return data.map((recipe) => ({
@@ -16,8 +22,13 @@ export async function generateStaticParams() {
 }
 
 export default async function RecipeDetail({ params }) {
+  const API_URL =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://kea-pantry.vercel.app";
+
   const paramId = (await params).id;
-  const res = await fetch(`http://localhost:3000/api/recipes/${paramId}`, {
+  const res = await fetch(`${API_URL}/api/recipes/${paramId}`, {
     next: { revalidate: 60 },
   });
 
