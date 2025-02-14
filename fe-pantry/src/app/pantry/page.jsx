@@ -7,10 +7,15 @@ export default function Page() {
   const [ingredients, setIngredients] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  const API_URL =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://kea-pantry.vercel.app";
+
   useEffect(() => {
     async function getPantryData() {
       try {
-        const res = await fetch(`http://localhost:3000/api/pantry`);
+        const res = await fetch(`${API_URL}/api/pantry`);
         if (!res.ok) {
           throw new Error("Failed to fetch data");
         }
