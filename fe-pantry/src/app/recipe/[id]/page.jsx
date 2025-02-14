@@ -38,6 +38,17 @@ export default async function RecipeDetail({ params }) {
 
   const recipe = await res.json();
 
+  function formatQuantity(quantity) {
+    const fractionMap = {
+      0.5: "1/2",
+      0.25: "1/4",
+      0.75: "3/4",
+      0.33: "1/3",
+      0.66: "2/3",
+    };
+    return fractionMap[quantity] || quantity;
+  }
+
   return (
     <div className={`${styles.card} ${styles["background-img"]}`}>
       <div className={styles["recipe-name"]}>{recipe.name}</div>
@@ -68,7 +79,7 @@ export default async function RecipeDetail({ params }) {
               />
               <div>{item.name}</div>
               <div className={styles.amount}>
-                <div>{item.quantity}</div>
+                <div>{formatQuantity(item.quantity)}</div>
                 <div>{item.unit}</div>
               </div>
             </div>
@@ -93,7 +104,7 @@ export default async function RecipeDetail({ params }) {
                       />{" "}
                       <div>{item.name}</div>
                       <div className={styles.amount}>
-                        <div>{item.quantity}</div>
+                        <div>{formatQuantity(item.quantity)}</div>
                         <div>{item.unit}</div>
                       </div>
                     </div>
