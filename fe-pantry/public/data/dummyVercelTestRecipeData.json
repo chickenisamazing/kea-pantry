@@ -1252,7 +1252,7 @@
       "recipeId": 25,
       "name": "훈제오리 알배추 찜",
       "description": "간단하게 만드는 단골 식단",
-      "image": "/assets/dish/steamed_duck_cabbage_resized.png",
+      "image": "/assets/dish/steamed_duck_2.png",
       "author": "케아",
       "source": null,
       "ingredient": {
@@ -1556,6 +1556,85 @@
         "5분 정도 지나면 구워진 닭다리를 꺼내 자른다."
       ]
     },
+
+    {
+      "recipeId": 37,
+      "name": "봉골레",
+      "description": "바지락, 동죽, 모시 취향대로 만드세요!",
+      "image": "/assets/dish/vongole.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "닭다리(정육)",
+            "quantity": 2,
+            "unit": "개",
+            "image": "/assets/chicken-leg.png",
+            "description": "얄라"
+          },
+          {
+            "id": 2,
+            "name": "감자전분",
+            "quantity": 4,
+            "unit": "T",
+            "image": "/assets/robster.png",
+            "description": "너무 오래 볶으면 질겨져"
+          },
+          {
+            "id": 21,
+            "name": "미림",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/rucola.png",
+            "description": "파스타와 찰떡궁합"
+          },
+          {
+            "id": 4,
+            "name": "굵은 소금",
+            "quantity": 1,
+            "unit": "T",
+            "image": "/assets/salt.png",
+            "description": "틈에이러~"
+          },
+          {
+            "id": 8,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "t",
+            "image": "/assets/pepper.png",
+            "description": "틈에이러~"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3,
+            "name": "에브리띵 베이글 시즈닝",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "poppy seed 때문에 더 이상 구할 수 없다"
+          },
+          {
+            "id": 98,
+            "name": "저칼로리 숯불매콤치킨소스",
+            "quantity": 1,
+            "unit": "큰술",
+            "image": "/assets/cherry-tomato.png",
+            "description": "비비드키친. 느끼한 맛을 싹 잡아준다."
+          }
+        ]
+      },
+      "instruction": [
+        "닭다리(정육)는 물로 한 번 씻고 굵은 소금과 미림을 뿌려 5분 이상 방치한다.",
+        "달구어지지 않은 프라이팬에 오일을 2T 두른다.",
+        "닭다리는 앞뒷면에 감자전분을 묻힌 후 차가운 상태의 팬에 올려 곧바로 중불(인덕션5)에서 익힌다..",
+        "프라이팬 덮개를 덮고 구워주다가 한쪽 면이 노릇하게 구워지면 뒤집어서 반대편도 굽는다.",
+        "반대편도 빠삭하게 구워지면 다시 한 번 더 뒤집어서 조금만 더 굽다가 불을 끄고 그 상태로 둔다.",
+        "5분 정도 지나면 구워진 닭다리를 꺼내 자른다."
+      ]
+    },
     {
       "recipeId": 48,
       "name": "저칼로리 애호박 비빔국수",
@@ -1784,6 +1863,47 @@
             "quantity": 1,
             "unit": "꼬집",
             "image": "/assets/black-pepper2.png",
+            "description": "후추춫"
+          }
+        ]
+      },
+      "instruction": [
+        "바게트를 썰고 그 위에 이즈니 버터를 0.3cm 두께로 썰어올려준다",
+        "잠봉(육공육 기준)을 2등분 한 후 2번 접어서 올린다.",
+        "후추를 뿌린다."
+      ]
+    },
+    {
+      "recipeId": 85,
+      "name": "표고버섯 닭곰탕",
+      "description": "심플한 재료로 몸보신",
+      "image": "/assets/dish/shiitake_chicken_soup.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "바게트",
+            "quantity": 0.5,
+            "unit": "개",
+            "image": "/assets/baguette.png",
+            "description": "맛있는 바게트여야함"
+          },
+          {
+            "id": 2,
+            "name": "이즈니 버터",
+            "quantity": 1,
+            "unit": "꼬집",
+            "image": "/assets/butter.png",
+            "description": "그냥 버터는 안 되요"
+          },
+          {
+            "id": 3,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "꼬집",
+            "image": "/assets/robster.png",
             "description": "후추춫"
           }
         ]
