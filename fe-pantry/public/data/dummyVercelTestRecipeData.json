@@ -1752,6 +1752,47 @@
         "돌돌 말린 차돌박이가 풀리면 양면이 잘 굽도록 뒤집어준다.",
         "덜 익어서 붉은 부위가 없다면 그릇에 덜고 후추를 뿌린다."
       ]
+    },
+    {
+      "recipeId": 84,
+      "name": "잠봉 뵈르",
+      "description": "잠봉과 이즈니 버터의 최상의 조합!",
+      "image": "/assets/dish/jambong_beurre.png",
+      "author": "케아",
+      "source": null,
+      "ingredient": {
+        "required": [
+          {
+            "id": 17,
+            "name": "바게트",
+            "quantity": 0.5,
+            "unit": "개",
+            "image": "/assets/baguette.png",
+            "description": "맛있는 바게트여야함"
+          },
+          {
+            "id": 2,
+            "name": "이즈니 포션버터",
+            "quantity": 3,
+            "unit": "개",
+            "image": "/assets/isigny-portion-butter.png",
+            "description": "그냥 버터는 안 되요"
+          },
+          {
+            "id": 3,
+            "name": "후추",
+            "quantity": 1,
+            "unit": "꼬집",
+            "image": "/assets/black-pepper2.png",
+            "description": "후추춫"
+          }
+        ]
+      },
+      "instruction": [
+        "바게트를 썰고 그 위에 이즈니 버터를 0.3cm 두께로 썰어올려준다",
+        "잠봉(육공육 기준)을 2등분 한 후 2번 접어서 올린다.",
+        "후추를 뿌린다."
+      ]
     }
   ]
 }
