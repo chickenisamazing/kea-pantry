@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 
 export async function GET(request, context) {
-  const { params } = await context;
+  const params = await context.params;
+  const { id } = params;
 
   const API_URL =
     process.env.NODE_ENV === "development"
@@ -16,10 +17,7 @@ export async function GET(request, context) {
 
   const data = await res.json();
   const recipe = data.recipes;
-  console.log(recipe, "레시피");
-  const oneRecipe = recipe.find(
-    async (r) => r.recipeId === Number(await params.id)
-  );
+  const oneRecipe = recipe.find((r) => r.recipeId === Number(id));
 
   if (!oneRecipe) {
     return NextResponse.json({ error: "Recipe not found" }, { status: 404 });
