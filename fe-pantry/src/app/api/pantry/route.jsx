@@ -7,7 +7,7 @@ export async function GET() {
       : "https://kea-pantry.vercel.app";
 
   // const baseUrl = `http://localhost:3000`;
-  const res = await fetch(`${API_URL}/data/dummyVercelTestPantryData.json`);
+  const res = await fetch(`${API_URL}/data/dummyPantryData.json`);
 
   if (!res.ok) {
     return NextResponse.error();
