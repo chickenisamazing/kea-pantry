@@ -20,7 +20,9 @@ export default function Navbar() {
         </Link>
         <a className={styles[`navbar-item`]}>레시피 추천</a>
       </div>
-      <a className={styles[`navbar-admin`]}>admin</a>
+      <Link href="/admin" className={styles[`navbar-admin`]}>
+        admin
+      </Link>
     </div>
   );
 }
