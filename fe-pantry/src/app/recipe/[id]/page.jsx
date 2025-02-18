@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import styles from "./page.module.scss";
 
+import ModifyButton from "../../../component/ModifyButton";
+
 export async function generateStaticParams() {
   const API_URL =
     process.env.NODE_ENV === "development"
@@ -121,6 +123,7 @@ export default async function RecipeDetail({ params }) {
           </div>
         ))}
       </div>
+      <ModifyButton paramId={paramId} />
     </div>
   );
 }
