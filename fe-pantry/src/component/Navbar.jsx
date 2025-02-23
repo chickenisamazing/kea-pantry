@@ -19,6 +19,9 @@ export default function Navbar() {
           나의 팬트리
         </Link>
         <a className={styles[`navbar-item`]}>레시피 추천</a>
+        <Link href="/grocery" className={styles[`navbar-item`]}>
+          팬트리 아이템
+        </Link>
       </div>
       <Link href="/admin" className={styles[`navbar-admin`]}>
         admin
