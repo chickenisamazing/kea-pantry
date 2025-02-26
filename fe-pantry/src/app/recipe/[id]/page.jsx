@@ -52,6 +52,7 @@ export default async function RecipeDetail({ params }) {
   }
 
   return (
+    // <div className={`${styles.card} ${styles["background-img"]}`}>
     <div className={`${styles.card} ${styles["background-img"]}`}>
       <div className={styles["recipe-name"]}>{recipe.name}</div>
       <div>{recipe.description}</div>
