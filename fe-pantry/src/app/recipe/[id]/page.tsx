@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import { use } from "react";
 
 import styles from "./page.module.scss";
 
@@ -15,6 +16,7 @@ interface Ingredient {
 }
 
 interface Recipe {
+  recipeId: number;
   name: string;
   description: string;
   image: string;
@@ -49,7 +51,7 @@ export async function generateStaticParams() {
   }
 }
 
-export default async function RecipeDetail({
+export default function RecipeDetail({
   params,
 }: {
   params: RecipeDetailParams;
@@ -60,15 +62,24 @@ export default async function RecipeDetail({
       : "https://kea-pantry.vercel.app";
 
   const paramId = params.id;
-  const res = await fetch(`${API_URL}/api/recipes/${paramId}`, {
-    next: { revalidate: 60 },
-  });
 
-  if (!res.ok) {
-    return notFound();
+  async function getRecipe(id: string) {
+    const res = await fetch(`${API_URL}/api/recipes/${paramId}`, {
+      next: { revalidate: 60 },
+    });
+
+    if (!res.ok) {
+      return null;
+    }
+
+    return res.json();
   }
 
-  const recipe: Recipe = await res.json();
+  const recipe: Recipe = use(getRecipe(params.id));
+
+  if (!recipe) {
+    return notFound();
+  }
 
   function formatQuantity(quantity: number): string | number {
     const fractionMap: { [key: number]: string } = {
