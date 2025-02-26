@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
+
 import styles from "./page.module.scss";
 
 import ModifyButton from "../../../component/ModifyButton";
@@ -57,7 +59,7 @@ export default async function RecipeDetail({
       ? "http://localhost:3000"
       : "https://kea-pantry.vercel.app";
 
-  const paramId = (await params).id;
+  const paramId = params.id;
   const res = await fetch(`${API_URL}/api/recipes/${paramId}`, {
     next: { revalidate: 60 },
   });
@@ -86,7 +88,7 @@ export default async function RecipeDetail({
       <div>{recipe.description}</div>
 
       <div className={styles["recipe-image"]}>
-        <img
+        <Image
           // key={ingredient.id}
           src={recipe.image}
           alt="File icon"
@@ -100,7 +102,7 @@ export default async function RecipeDetail({
           {recipe.ingredient.required.map((item) => (
             <div className={styles.image} key={item.id}>
               {" "}
-              <img
+              <Image
                 title={item.description}
                 // key={ingredient.id}
                 src={item.image}
@@ -126,7 +128,7 @@ export default async function RecipeDetail({
                   {recipe.ingredient.optional?.map((item) => (
                     <div className={styles.image} key={item.id}>
                       {" "}
-                      <img
+                      <Image
                         title={item.description}
                         src={item.image}
                         alt="File icon"

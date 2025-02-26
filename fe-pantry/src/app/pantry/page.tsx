@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import styles from "./page.module.scss";
 
 interface Ingredient {
@@ -39,13 +40,15 @@ export default function Page() {
     getPantryData();
   }, []);
 
+  if (loading) return <div>Loading...</div>;
+
   return (
     <div className={styles.house}>
       <div className={styles.title}>나의 팬트리</div>{" "}
       <div className={styles.container}>
         {ingredients.map((ingredient) => (
           <div className={styles.ingredient} key={ingredient.id}>
-            <img
+            <Image
               // key={ingredient.id}
               src={ingredient.image}
               alt="File icon"
