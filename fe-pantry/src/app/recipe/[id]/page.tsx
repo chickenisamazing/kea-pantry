@@ -3,6 +3,30 @@ import styles from "./page.module.scss";
 
 import ModifyButton from "../../../component/ModifyButton";
 
+interface Ingredient {
+  id: number;
+  name: string;
+  description: string;
+  image: string;
+  quantity: number;
+  unit: string;
+}
+
+interface Recipe {
+  name: string;
+  description: string;
+  image: string;
+  ingredient: {
+    required: Ingredient[];
+    optional: Ingredient[];
+  };
+  instruction: string[];
+}
+
+interface RecipeDetailParams {
+  id: string;
+}
+
 export async function generateStaticParams() {
   const API_URL =
     process.env.NODE_ENV === "development"
@@ -14,7 +38,7 @@ export async function generateStaticParams() {
 
     const data = await res.json();
 
-    return data.map((recipe) => ({
+    return data.map((recipe: { recipeId: number }) => ({
       id: recipe.recipeId.toString(),
     }));
   } catch (error) {
@@ -23,7 +47,11 @@ export async function generateStaticParams() {
   }
 }
 
-export default async function RecipeDetail({ params }) {
+export default async function RecipeDetail({
+  params,
+}: {
+  params: RecipeDetailParams;
+}) {
   const API_URL =
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
@@ -38,10 +66,10 @@ export default async function RecipeDetail({ params }) {
     return notFound();
   }
 
-  const recipe = await res.json();
+  const recipe: Recipe = await res.json();
 
-  function formatQuantity(quantity) {
-    const fractionMap = {
+  function formatQuantity(quantity: number): string | number {
+    const fractionMap: { [key: number]: string } = {
       0.5: "1/2",
       0.25: "1/4",
       0.75: "3/4",
@@ -69,7 +97,7 @@ export default async function RecipeDetail({ params }) {
       <div>
         <div className={styles["ingredients-title"]}>필수재료</div>
         <div className={styles.ingredients}>
-          {recipe.ingredient.required.map((item, index) => (
+          {recipe.ingredient.required.map((item) => (
             <div className={styles.image} key={item.id}>
               {" "}
               <img
@@ -95,7 +123,7 @@ export default async function RecipeDetail({ params }) {
                 <div className={styles["ingredients-title"]}>추가재료</div>
 
                 <div className={styles.ingredients}>
-                  {recipe.ingredient.optional?.map((item, index) => (
+                  {recipe.ingredient.optional?.map((item) => (
                     <div className={styles.image} key={item.id}>
                       {" "}
                       <img

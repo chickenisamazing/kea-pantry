@@ -4,10 +4,31 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import styles from "./page.module.scss";
 
+interface Ingredient {
+  id: number;
+  name: string;
+  description: string;
+  image: string;
+  quantity: number;
+  unit: string;
+}
+
+interface Recipe {
+  recipeId: number;
+  name: string;
+  description: string;
+  image: string;
+  ingredient: {
+    required: Ingredient[];
+    optional: Ingredient[];
+  };
+  instruction: string[];
+}
+
 export default function Page() {
   const router = useRouter();
-  const [datas, setDatas] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [datas, setDatas] = useState<Recipe[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
   const API_URL =
     process.env.NODE_ENV === "development"
@@ -33,7 +54,7 @@ export default function Page() {
   }, []);
 
   // const buttons =  [1, 2, 3, 4, 5];
-  const buttonOnClick = (num) => {
+  const buttonOnClick = (num: number) => {
     router.push(`/recipe/${num}`);
   };
 
