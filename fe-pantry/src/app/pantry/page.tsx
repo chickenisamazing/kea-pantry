@@ -3,9 +3,17 @@
 import { useState, useEffect } from "react";
 import styles from "./page.module.scss";
 
+interface Ingredient {
+  id: number;
+  name: string;
+  image: string;
+  quantity: number;
+  unit: string;
+}
+
 export default function Page() {
-  const [ingredients, setIngredients] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [ingredients, setIngredients] = useState<Ingredient[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
   const API_URL =
     process.env.NODE_ENV === "development"
