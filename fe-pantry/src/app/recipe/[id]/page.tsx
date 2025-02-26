@@ -59,7 +59,7 @@ export default async function RecipeDetail({
       ? "http://localhost:3000"
       : "https://kea-pantry.vercel.app";
 
-  const paramId = (await params).id;
+  const paramId = params.id;
   const res = await fetch(`${API_URL}/api/recipes/${paramId}`, {
     next: { revalidate: 60 },
   });
