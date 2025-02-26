@@ -38,7 +38,7 @@ export default function Page() {
     }
 
     getPantryData();
-  }, []);
+  }, [API_URL]);
 
   if (loading) return <div>Loading...</div>;
 
