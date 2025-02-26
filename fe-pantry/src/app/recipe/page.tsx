@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
+
 import styles from "./page.module.scss";
 
 interface Ingredient {
@@ -51,7 +53,7 @@ export default function Page() {
       }
     }
     fetchData();
-  }, []);
+  }, [API_URL]);
 
   // const buttons =  [1, 2, 3, 4, 5];
   const buttonOnClick = (num: number) => {
@@ -72,7 +74,7 @@ export default function Page() {
               onClick={() => buttonOnClick(data.recipeId)}
             >
               <div className={styles["img-container"]}>
-                <img
+                <Image
                   title={data.description}
                   src={data.image}
                   alt="File icon"
