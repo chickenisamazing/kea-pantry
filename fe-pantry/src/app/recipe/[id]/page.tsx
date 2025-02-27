@@ -7,7 +7,6 @@ import ModifyButton from "../../../component/ModifyButton";
 
 type Props = {
   params: Promise<{ id: string }>;
-  // searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
 interface Ingredient {
@@ -58,10 +57,6 @@ export default async function RecipeDetail({ params }: Props) {
 
   const resolvedParams = await params;
   const paramId = resolvedParams.id;
-  // const paramId = (await params).id;
-  // console.log(params.id, "????");
-  // console.log(params, "????");
-  // async function getRecipe(id?: string) {
   const res = await fetch(`${API_URL}/api/recipes/${paramId}`, {
     next: { revalidate: 60 },
   });
@@ -70,10 +65,6 @@ export default async function RecipeDetail({ params }: Props) {
     return notFound();
   }
   const recipe: Recipe = await res.json();
-  // return res.json();
-  // }
-
-  // const recipe: Recipe = use(getRecipe(params.id));
 
   if (!recipe) {
     return notFound();
