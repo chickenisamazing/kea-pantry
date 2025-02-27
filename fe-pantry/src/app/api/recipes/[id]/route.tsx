@@ -1,6 +1,9 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(request, context) {
+export async function GET(
+  request: NextRequest,
+  context: { params: Promise<{ id: string }> }
+) {
   const params = await context.params;
   const { id } = params;
 
@@ -17,7 +20,9 @@ export async function GET(request, context) {
 
   const data = await res.json();
   const recipe = data.recipes;
-  const oneRecipe = recipe.find((r) => r.recipeId === Number(id));
+  const oneRecipe = recipe.find(
+    (r: { recipeId: number }) => r.recipeId === Number(id)
+  );
 
   if (!oneRecipe) {
     return NextResponse.json({ error: "Recipe not found" }, { status: 404 });

@@ -1,10 +1,13 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { use } from "react";
 
 import styles from "./page.module.scss";
 
 import ModifyButton from "../../../component/ModifyButton";
+
+type Props = {
+  params: Promise<{ id: string }>;
+};
 
 interface Ingredient {
   id: number;
@@ -27,10 +30,6 @@ interface Recipe {
   instruction: string[];
 }
 
-interface RecipeDetailParams {
-  id: string;
-}
-
 export async function generateStaticParams() {
   const API_URL =
     process.env.NODE_ENV === "development"
@@ -39,7 +38,6 @@ export async function generateStaticParams() {
 
   try {
     const res = await fetch(`${API_URL}/api/recipes`);
-
     const data = await res.json();
 
     return data.map((recipe: { recipeId: number }) => ({
@@ -51,31 +49,22 @@ export async function generateStaticParams() {
   }
 }
 
-export default function RecipeDetail({
-  params,
-}: {
-  params: RecipeDetailParams;
-}) {
+export default async function RecipeDetail({ params }: Props) {
   const API_URL =
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
       : "https://kea-pantry.vercel.app";
 
-  const paramId = params.id;
+  const resolvedParams = await params;
+  const paramId = resolvedParams.id;
+  const res = await fetch(`${API_URL}/api/recipes/${paramId}`, {
+    next: { revalidate: 60 },
+  });
 
-  async function getRecipe(id: string) {
-    const res = await fetch(`${API_URL}/api/recipes/${paramId}`, {
-      next: { revalidate: 60 },
-    });
-
-    if (!res.ok) {
-      return null;
-    }
-
-    return res.json();
+  if (!res.ok) {
+    return notFound();
   }
-
-  const recipe: Recipe = use(getRecipe(params.id));
+  const recipe: Recipe = await res.json();
 
   if (!recipe) {
     return notFound();
